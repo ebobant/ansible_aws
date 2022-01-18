@@ -13,7 +13,7 @@ env_id: "ansiblelab"
 dns_domain: "{{ env_id }}.com"
 
 # Define the AWS default image
-aws_image: ami-000db10762d0c4c05
+aws_image: ami-08e4e35cccc6189f4
 
 # Set the SSH keypair with EC2 Instances
 aws_key_name: "ansible"
@@ -29,7 +29,4 @@ aws_zone: "us-east-1a"
 aws_zone2: "us-east-1b"
 #aws_zone2: "us-east-1c"
 
-
-
-
-
+ansible_python_interpreter: /usr/bin/python3
